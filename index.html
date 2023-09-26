@@ -2,100 +2,178 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Frame
-    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <!-- Хедер -->
-    <header>
-        <a href="#">MoGo</a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Blog</a></li>
-                <li><a href="" style="text-transform: lowercase;">SERVICE</a></li>
-                <li><a href="">WORK</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="conteiner">
+            <a href="#" class="logo">MoGo</a>
+            <nav>
+                <ul class="header-list">
+                    <li class="item">
+                        <a class="header-link menu-current" href="">SERVICE</a>
+                    </li>
+                    <li class="item"><a class="header-link" href="">WORK</a></li>
+                    <li class="item"><a class="header-link" href="">BLOG</a></li>
+                    <li class="item"><a class="header-link" href="">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <!-- info-blok -->
-        <section>
-            <p>We work with</p>
-            <h1>Amazing Services</h1>
+        <section class="services">
+            <div class="conteiner">
+                <p class="services-text">We work with</p>
+                <h1 class="services-title">Amazing Services</h1>
+            </div>
         </section>
         <!--benefits -->
-        <section>
-            <h2>benefits</h2>
-            <ul>
-                <li>
-                    <h3>photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li>
-                    <h3>photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li>
-                    <h3>photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li>
-                    <h3>photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li>
-                    <h3>photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li>
-                    <h3>photography</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-            </ul>
+        <section class="benefits">
+            <div class="conteiner">
+                <ul class="benefits-list list">
+                    <li class="item">
+                        <svg class="benefits-svg" width="37" height="37">
+                            <use href="./img/symbol-defs.svg#icon-alarm"></use>
+                        </svg>
+                        <div>
+                            <h3 class="benefits-title">photography</h3>
+                            <p class="benefits-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <svg class="benefits-svg" width="37" height="37">
+                            <use href="./img/symbol-defs.svg#icon-paper"></use>
+                        </svg>
+                        <div>
+                            <h3 class="benefits-title">photography</h3>
+                            <p class="benefits-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <svg class="benefits-svg" width="37" height="37">
+                            <use href="./img/symbol-defs.svg#icon-home"></use>
+                        </svg>
+                        <div>
+                            <h3 class="benefits-title">photography</h3>
+                            <p class="benefits-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <svg class="benefits-svg" width="37" height="37">
+                            <use href="./img/symbol-defs.svg#icon-digital-marketing"></use>
+                        </svg>
+                        <div>
+                            <h3 class="benefits-title">photography</h3>
+                            <p class="benefits-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <svg class="benefits-svg" width="37" height="37">
+                            <use href="./img/symbol-defs.svg#icon-display"></use>
+                        </svg>
+                        <div>
+                            <h3 class="benefits-title">photography</h3>
+                            <p class="benefits-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <svg class="benefits-svg" width="37" height="37">
+                            <use href="./img/symbol-defs.svg#icon-bar-graph"></use>
+                        </svg>
+                        <div>
+                            <h3 class="benefits-title">photography</h3>
+                            <p class="benefits-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- second info-blok-->
-        <section>
-            <p>Who we are</p>
-            <h1>Meet our team</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
+        <section class="info-blok">
+            <div class="conteiner">
+                <p class="services-text">Who we are</p>
+                <h1 class="services-title">Meet our team</h1>
+                <p class="info-blok-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
         </section>
         <!-- man -->
-        <section>
-            <h2>man</h2>
-            <ul>
-                <li><img src="./img/first-man.jpg" alt="first-man" width="380">
-                    <h3>Matthew Dix</h3>
-                    <p>Graphic Design</p>
-                </li>
-                <li><img src="./img/second-man.jpg" alt="second-man" width="380">
-                    <h3>Christopher Campbell</h3>
-                    <p>Branding/UX design</p>
-                </li>
-                <li><img src="./img/third-man.jpg" alt="third-man" width="380">
-                    <h3>Michael Fertig</h3>
-                    <p>Developer</p>
-                </li>
-            </ul>
+        <section class="man">
+            <div class="conteiner">
+                <ul class="man-list">
+                    <li class="item">
+                        <img src="./img/first-man.jpg" alt="first-man" width="380" />
+                        <h3 class="man-title">Matthew Dix</h3>
+                        <p class="man-text">Graphic Design</p>
+                    </li>
+                    <li class="item">
+                        <img src="./img/second-man.jpg" alt="second-man" width="380" />
+                        <h3 class="man-title">Christopher Campbell</h3>
+                        <p class="man-text">Branding/UX design</p>
+                    </li>
+                    <li class="item">
+                        <img src="./img/third-man.jpg" alt="third-man" width="380" />
+                        <h3 class="man-title">Michael Fertig</h3>
+                        <p class="man-text">Developer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- Футер -->
-    <footer>
-        <p>&copy; 2016 MoGo free PSD template by Laaqiq</p>
-        <form>
-            <label for="email"></label>
-            <input id="email" type="email" placeholder="Your Email...">
-            <button type="submit">Subscribe</button>
-        </form>
+    <hr class="hr" />
+    <footer class="footer">
+        <div class="conteiner">
+            <p class="footer-text">
+                &copy; 2016 MoGo free PSD template by
+                <span class="footer-style">Laaqiq</span>
+            </p>
+            <form class="footer-form">
+                <label for="email"></label>
+                <input id="email" type="email" placeholder="Your Email..." class="form-input" />
+                <button type="submit" class="form-btn">Subscribe</button>
+            </form>
+        </div>
     </footer>
 </body>
 
