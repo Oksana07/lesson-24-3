@@ -1,0 +1,28 @@
+ .services {
+  padding-top: 66px;
+}
+
+.services__text {
+  margin-bottom: 20px;
+
+  text-align: center;
+  color: var(--title-color);
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services__title {
+  margin-bottom: 40px;
+  text-align: center;
+
+  color: var(--title-color);
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+}

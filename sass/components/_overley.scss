@@ -1,0 +1,20 @@
+.tumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.tumb__overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(231, 176, 80, 0.744);
+
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.tumb:hover .tumb__overley {
+  transform: translateY(0);
+}

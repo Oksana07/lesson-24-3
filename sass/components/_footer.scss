@@ -1,0 +1,44 @@
+.footer {
+  padding-bottom: 20px;
+}
+
+.footer>.conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__style {
+  color: var(--hover-color);
+}
+
+.footer__form {
+  display: flex;
+}
+
+.form__input {
+  padding: 11px 145px 10px 10px;
+  stroke-width: 1px;
+  stroke: var(--bacic-color);
+}
+
+.form__btn {
+  border: none;
+  padding: 11px 38px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+  background-color: var(--accent-color);
+}

@@ -1,0 +1,35 @@
+:root {
+  --accent-color: #95e1d3;
+  --hover-color: #f38181;
+  --title-color: #333;
+  --bacic-color: #b6b6b6;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
